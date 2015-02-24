@@ -2,7 +2,7 @@
 <jmeterTestPlan version="1.2" properties="2.7" jmeter="2.12 r1636949">
   <hashTree>
     <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Test Plan" enabled="true">
-      <stringProp name="TestPlan.comments"></stringProp>
+      <stringProp name="TestPlan.comments">This test plan was created by the BlazeMeter JSON to JMX convertor V.1.1. Please contact support@blazemeter.com for further support.</stringProp>
       <boolProp name="TestPlan.functional_mode">false</boolProp>
       <boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
       <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
@@ -17,8 +17,8 @@
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <stringProp name="LoopController.loops">1</stringProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">500</stringProp>
-        <stringProp name="ThreadGroup.ramp_time">500</stringProp>
+        <stringProp name="ThreadGroup.num_threads">300</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">600</stringProp>
         <longProp name="ThreadGroup.start_time">1424102213000</longProp>
         <longProp name="ThreadGroup.end_time">1424102213000</longProp>
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
@@ -8837,7 +8837,7 @@
             <threadCounts>true</threadCounts>
           </value>
         </objProp>
-        <stringProp name="filename">/home/ubuntu/lundi-500-500-2xlarge.jtl</stringProp>
+        <stringProp name="filename">/home/ubuntu/mercredi-c34xl-500.jtl</stringProp>
       </ResultCollector>
       <hashTree/>
       <ResultCollector guiclass="SummaryReport" testclass="ResultCollector" testname="Summary Report" enabled="true">
